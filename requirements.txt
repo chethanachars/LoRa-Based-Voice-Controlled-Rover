@@ -1,0 +1,20 @@
+	
+Texas Instruments MSP-EXP430G2 MSP430 LaunchPad x1 
+
+Texas Instruments Dual H-Bridge motor drivers L293D 100 to 200
+
+dc motors with wheels x4 - 700
+
+robot chasis (3d prints ) - estimated (1000-2000)
+
+mq2 flamable gas and smoke sensors -100 to 200 
+
+jump wires- 200
+
+ressitors capacitors and pcb boards 500
+
+blotooth module (CentIoT - HC-06 6 Pin Bluetooth Module) - 800 to 1000
+
+
+
+

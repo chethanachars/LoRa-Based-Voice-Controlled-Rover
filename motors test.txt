@@ -1,0 +1,48 @@
+char temp;
+void setup()
+{
+  // put your setup code here, to run once:
+  // confgure port pins as o/p
+  //pins 11, 12, 13 and 14 are used for L293D motor driver
+  pinMode(11,OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(13,OUTPUT);
+  pinMode(14,OUTPUT);
+  // initial state of all the pins is LOW
+  digitalWrite(11,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(13,LOW);
+  digitalWrite(14,LOW);
+  // initialize Serial communication
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+      // move forward
+      digitalWrite(11,HIGH);
+      digitalWrite(12,LOW);
+      digitalWrite(13,LOW);
+      digitalWrite(14,HIGH);
+      delay(1000);
+      digitalWrite(11,LOW);
+      digitalWrite(12,HIGH);
+      digitalWrite(13,HIGH);
+      digitalWrite(14,LOW);
+      delay(1000)
+      digitalWrite(11,HIGH);
+      digitalWrite(12,LOW);
+      digitalWrite(13,LOW);
+      digitalWrite(14,LOW);
+      delay(1000);
+      digitalWrite(11,LOW);
+      digitalWrite(12,LOW);
+      digitalWrite(13,LOW);
+      digitalWrite(14,HIGH);
+      delay(1000);
+      //stop robot
+      digitalWrite(11,LOW);
+      digitalWrite(12,LOW);
+      digitalWrite(13,LOW);
+      digitalWrite(14,LOW);
+    }
